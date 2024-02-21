@@ -1,0 +1,36 @@
+{
+  "name": "divvy-bikes-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to process Divvy Bikes station data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "aws-sdk": "^2.1562.0",
+    "axios": "^1.6.7",
+    "csv-writer": "^1.6.0",
+    "rambda": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^27.4.5",
+    "nodemon": "^3.0.3",
+    "serverless-offline": "^8.4.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "testEnvironment": "node",
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ]
+}
