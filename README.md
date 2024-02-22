@@ -1,5 +1,17 @@
 # mrad
 
+# How to install
+* run `npm install` to install packages
+* you can run the webserver with `npm start`
+* Currently tests will not work as our S3 mocks are not working
+  So to test run `docker-compose up` to get localstack running
+  Then run `npm test`
+
+# Lots of TODOs here not limited to 
+
+* Fix mock for s3
+* Logic to check if bucket exists
+
 
 # Automatically using the correct version of node (e.g. use .nvmrc)
 If you are using zshell add this to your ~/.zshrc file
