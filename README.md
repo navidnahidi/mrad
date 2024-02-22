@@ -11,6 +11,8 @@
 
 * Fix mock for s3
 * Logic to check if bucket exists
+* Move scripts into `src/` directory
+* Add more error handling (e.g. potentially check for bucket existence?)
 
 
 # Automatically using the correct version of node (e.g. use .nvmrc)
