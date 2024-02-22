@@ -5,8 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "jest"
+    "start": "nodemon server.js",
+    "test": "TEST=true node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
   },
   "dependencies": {
     "@hapi/hapi": "^20.1.0",
